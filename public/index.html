@@ -1,13 +1,16 @@
 <!DOCTYPE HTML>
-<html>
+<html ng-app>
 	<head>
 		<title>Authorization</title>
 		<link rel="stylesheet" type="text/css" href="mystyle.css">
 	</head>
 	<body>
 
-    <h1>Angular</h1>
-
-		<script src="myscripts.js"></script>
+<div ng-init="hello='world'">
+    <h1>{{hello}}</h1>
+		<input type="text" ng-model="hello"/>
+</div>
+		<script src="script.js"></script>
+		<script src="angular.min.js"></script>
 	</body>
 </html>
