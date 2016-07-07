@@ -85,10 +85,15 @@ body { background-color: #fff; padding: 20px; }
 
 #myQuiz .question.answered .ans { cursor: default; }
 
+#myQuiz .question .ans.image {
+  min-height: 60px; padding: 0px;
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+}
 /* Feedback */
 
 #myQuiz .feedback { color: #efbe5e; margin-top: 50px;
-  transition: opacity 1.5s, margin-top: 1.5s; visibility: hidden; opacity: 0; }
+  transition: opacity 1.5s, margin-top 1.5s; visibility: hidden; opacity: 0; }
 
 #myQuiz .feedback .btn { margin-top: 5px; }
 #myQuiz .feedback strong { color: #000; }
