@@ -32,7 +32,10 @@
     {{ $index === activeQuestion ? 'active' : 'inactive' }}
 		" ng-repeat="myQuestion in myQuestions">
 				<p class="txt">{{myQuestion.question}}</p>
-				<p class="ans" ng-repeat="Answer in myQuestions[$index].answers">{{Answer.text}}</p>
+				<p class="ans"
+				    ng-click="selectAnswer($parent.$index, $index)"
+				 		ng-repeat="Answer in myQuestions[$index].answers">
+					  {{Answer.text}}</p>
 				<div class="feedback">
 				<p>You are <strong>correct.</strong></p>
 				<p>Oops! That is not <strong>correct.</strong></p>
