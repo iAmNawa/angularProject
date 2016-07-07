@@ -1,7 +1,7 @@
 [
   {
     "question" : "How much does a typical olympic bar weigh?",
-    "answer" : [
+    "answers" : [
       { "id" : 0, "text" : "25lb"},
       { "id" : 1, "text" : "35lb"},
       { "id" : 2, "text" : "45lb"},
@@ -11,7 +11,7 @@
   },
   {
     "question" : "How much does a typical olympic bar weigh?",
-    "answer" : [
+    "answers" : [
       { "id" : 0, "text" : "25lb"},
       { "id" : 1, "text" : "35lb"},
       { "id" : 2, "text" : "45lb"},
@@ -21,7 +21,7 @@
   },
   {
     "question" : "How much does a typical olympic bar weigh?",
-    "answer" : [
+    "answers" : [
       { "id" : 0, "text" : "25lb"},
       { "id" : 1, "text" : "35lb"},
       { "id" : 2, "text" : "45lb"},
@@ -31,7 +31,7 @@
   },
   {
     "question" : "How much does a typical olympic bar weigh?",
-    "answer" : [
+    "answers" : [
       { "id" : 0, "text" : "25lb"},
       { "id" : 1, "text" : "35lb"},
       { "id" : 2, "text" : "45lb"},
@@ -41,7 +41,7 @@
   },
   {
     "question" : "How much does a typical olympic bar weigh?",
-    "answer" : [
+    "answers" : [
       { "id" : 0, "text" : "25lb"},
       { "id" : 1, "text" : "35lb"},
       { "id" : 2, "text" : "45lb"},
@@ -51,7 +51,7 @@
   },
   {
     "question" : "How much does a typical olympic bar weigh?",
-    "answer" : [
+    "answers" : [
       { "id" : 0, "text" : "25lb"},
       { "id" : 1, "text" : "35lb"},
       { "id" : 2, "text" : "45lb"},
@@ -61,7 +61,7 @@
   },
   {
     "question" : "How much does a typical olympic bar weigh?",
-    "answer" : [
+    "answers" : [
       { "id" : 0, "text" : "25lb"},
       { "id" : 1, "text" : "35lb"},
       { "id" : 2, "text" : "45lb"},
