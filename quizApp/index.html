@@ -12,7 +12,7 @@
 		<h1>Test your knowledge: <span>fitness</span></h1>
 
 	<div class="progress">
-    <div ng-repeat="myQuestion in myQuestions"></div>
+    <div class="{{ ($index === activeQuestion) ? 'on' : 'off' }}" ng-repeat="myQuestion in myQuestions"></div>
 	</div>
 		<div class="answered correct"></div>
 		<div class="on"></div>
