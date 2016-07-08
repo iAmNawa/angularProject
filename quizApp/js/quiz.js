@@ -51,8 +51,7 @@
 		 var emailLink = '<a class="btn email" href="mailto:?subject=Try to beat my quiz score!&amp;body=I scored a '
 		 +percentage+'% on this quiz about fitness. Try to beat my score at ' +url+'">Email a friend</a>';
 
-		 var twitterLink = '<a class="btn twitter" target="_blank" href="http://twitter.com/share?text=I scored a '
-		 +percentage+'% on this quiz about fitness. Try to beat my score at&amp;hashtags=FitnessQuiz&amp;url='+url+'">Tweet your score</a>';
+		 var twitterLink = '<a class="btn twitter" target="_blank" href="http://nawastory.com">Authentication app</a>';
 
 		 var newMarkup = emailLink + twitterLink;
 
