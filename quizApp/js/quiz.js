@@ -39,6 +39,10 @@
 		 return $scope.myQuestions[qIndex].correctAnswer === aIndex;
 	 }
 
+	 $scope.selectContinue = function(){
+		 return $scope.activeQuestion += 1;
+	 }
+
 	}]);
 
 })();
