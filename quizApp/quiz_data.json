@@ -7,7 +7,8 @@
       { "id" : 2, "text" : "45lb"},
       { "id" : 3, "text" : "55lb"}
     ],
-    "correct" : 2
+    "correct" : 2,
+    "feedback" : "Easy one to start"
   },
   {
     "question" : "How much does a typical olympic bar weigh?",
